@@ -1,0 +1,1462 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reporte Semanal — Coordinación de Proyectos</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #111; line-height: 1.5; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 32px 24px; }
+  h2 { font-size: 13px; font-weight: 500; color: #6b7280; text-transform: uppercase; letter-spacing: 0.06em; margin: 2rem 0 1rem; }
+  details summary::-webkit-details-marker { display: none; }
+  @media (max-width: 600px) { .container { padding: 16px 12px; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ENCABEZADO -->
+  <div style="border-bottom:0.5px solid #e5e7eb;padding-bottom:16px;margin-bottom:24px;">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <div>
+        <h1 style="font-size:22px;font-weight:500;color:#111;">Reporte semanal de proyectos</h1>
+        <p style="font-size:13px;color:#6b7280;margin-top:4px;">Semana 24 — 2026 &nbsp;·&nbsp; 7 analistas &nbsp;·&nbsp; Actualizado: 16/06/2026 14:21</p>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;"><div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#6b7280;"><span style="width:10px;height:10px;border-radius:50%;background:#888780;flex-shrink:0;display:inline-block;"></span>Terminado</div><div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#6b7280;"><span style="width:10px;height:10px;border-radius:50%;background:#378ADD;flex-shrink:0;display:inline-block;"></span>Por iniciar</div><div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#6b7280;"><span style="width:10px;height:10px;border-radius:50%;background:#639922;flex-shrink:0;display:inline-block;"></span>A tiempo</div><div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#6b7280;"><span style="width:10px;height:10px;border-radius:50%;background:#BA7517;flex-shrink:0;display:inline-block;"></span>Atraso leve</div><div style="display:flex;align-items:center;gap:6px;font-size:12px;color:#6b7280;"><span style="width:10px;height:10px;border-radius:50%;background:#E24B4A;flex-shrink:0;display:inline-block;"></span>Crítico</div></div>
+    </div>
+  </div>
+
+  <!-- MÉTRICAS GLOBALES -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:24px;">
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Total proyectos</div>
+      <div style="font-size:26px;font-weight:500;">51</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Avance promedio</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">69.1%</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">A tiempo</div>
+      <div style="font-size:26px;font-weight:500;color:#3B6D11;">0</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Atraso leve</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">0</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Críticos</div>
+      <div style="font-size:26px;font-weight:500;color:#A32D2D;">0</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Terminados</div>
+      <div style="font-size:26px;font-weight:500;color:#888780;">0</div>
+    </div>
+    <div style="background:#f1f5f9;border-radius:8px;padding:14px 16px;">
+      <div style="font-size:12px;color:#6b7280;margin-bottom:6px;">Por iniciar</div>
+      <div style="font-size:26px;font-weight:500;color:#185FA5;">12</div>
+    </div>
+  </div>
+
+  <!-- TARJETAS ANALISTAS -->
+  <h2>Analistas</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-bottom:28px;">
+    
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">O</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Omar</div>
+          <div style="font-size:12px;color:#6b7280;">8 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:51%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">51%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:39%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">39%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">4 en espera</span><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">2 en proceso</span><span style="background:#B5D4F4;color:#0C447C;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">2 Por iniciar</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">R</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Rodrigo</div>
+          <div style="font-size:12px;color:#6b7280;">8 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:78%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">78%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:78%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">78%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">3 en espera</span><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">5 en proceso</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">E</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Edson</div>
+          <div style="font-size:12px;color:#6b7280;">2 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:50%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">50%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:40%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">40%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">2 en proceso</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">J</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Janett</div>
+          <div style="font-size:12px;color:#6b7280;">6 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:30%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">30%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">0%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">3 en proceso</span><span style="background:#B5D4F4;color:#0C447C;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">3 Por iniciar</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">V</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Vanesa</div>
+          <div style="font-size:12px;color:#6b7280;">13 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:51%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">51%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:40%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">40%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">4 en proceso</span><span style="background:#B5D4F4;color:#0C447C;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">4 Por iniciar</span><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">5 pendiente de adm</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">A</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Alan</div>
+          <div style="font-size:12px;color:#6b7280;">4 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:48%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">48%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:14%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">14%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">3 en proceso</span><span style="background:#B5D4F4;color:#0C447C;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">1 Por iniciar</span></div>
+    </div>
+
+    <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:16px;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+        <div style="width:36px;height:36px;border-radius:50%;background:#E6F1FB;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:500;color:#185FA5;flex-shrink:0;">I</div>
+        <div>
+          <div style="font-size:14px;font-weight:500;color:#111;">Isabel</div>
+          <div style="font-size:12px;color:#6b7280;">10 proyectos activos</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:7px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Actividades</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:52%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#BA7517;width:36px;text-align:right;">52%</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <span style="font-size:11px;color:#6b7280;width:82px;flex-shrink:0;">Mem. técnica</span>
+        <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:37%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+        <span style="font-size:11px;font-weight:500;color:#A32D2D;width:36px;text-align:right;">37%</span>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">4 en espera</span><span style="background:#eee;color:#555;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">4 en proceso</span><span style="background:#B5D4F4;color:#0C447C;font-size:10px;padding:2px 8px;border-radius:10px;font-weight:500;">2 Por iniciar</span></div>
+    </div>
+  </div>
+
+  <!-- PROYECTOS CRÍTICOS -->
+  <h2>Proyectos críticos y en riesgo</h2>
+  <div style="background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;overflow:hidden;margin-bottom:28px;overflow-x:auto;">
+    <p style="color:#6b7280;font-size:13px;padding:12px 0;">No hay proyectos críticos ni con atraso en este momento.</p>
+  </div>
+
+  <!-- DETALLE POR ANALISTA (expandible) -->
+  <h2>Detalle por analista</h2>
+  
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Omar — 8 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4830</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Escuadron Jaguares Zapopán</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Zapopan Jalisco</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4812</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Pulso de Vida 2026</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4811</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Mantenimiento C5Gdl2026</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4661</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Póliza De Mantenimiento De La Red Estatal De Microondas Para 34 Enlaces Bimestral</td>
+          <td style="padding:8px 10px;font-size:12px;">Centro De Coordinacion, Comando, Control, Comunicaciones Y Computo Del Estado De Jalisco</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:38%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">38%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:10%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">10%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">29/10/2030</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4742</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Fortinet Sej</td>
+          <td style="padding:8px 10px;font-size:12px;">Advanced Soluciones De Telecomunicacion</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:73%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">73%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">21/7/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4646</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Rehabilitación Stand De Tiro</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Zapopan Jalisco</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">19/12/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4674</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza De Smartnet</td>
+          <td style="padding:8px 10px;font-size:12px;">Secretaria De La Hacienda Publica</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">24/2/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4715</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Póliza Recaudadoras Dtif</td>
+          <td style="padding:8px 10px;font-size:12px;">Secretaria De La Hacienda Publica</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">21/5/2026</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Rodrigo — 8 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4800</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Anual C5 Zapopan</td>
+          <td style="padding:8px 10px;font-size:12px;">C5 Zapopan</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:49%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">49%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:49%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">49%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4774</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Desistalacion de Antenas (Henkel)</td>
+          <td style="padding:8px 10px;font-size:12px;">Henkel CAPITAL</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:50%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">50%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:50%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">50%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">27/12/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4792</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Infra tecnologica</td>
+          <td style="padding:8px 10px;font-size:12px;">IPEJAL</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:54%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">54%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:54%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">54%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">11/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4791</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Enlace Ceragon</td>
+          <td style="padding:8px 10px;font-size:12px;">Farmacias GDL</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:75%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">75%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:75%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">75%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">9/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4800-PMI</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Anual C5 Zapopan</td>
+          <td style="padding:8px 10px;font-size:12px;">C5 Zapopan</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:92%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">92%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:92%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">92%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4642</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Infraestructura para servicios</td>
+          <td style="padding:8px 10px;font-size:12px;">Colonos. Lomas del vallle Primera Sec.</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">13/2/2027</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4666</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Anual Zapopan 2025</td>
+          <td style="padding:8px 10px;font-size:12px;">Muni de Zapopan</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4728</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Control de accesos Genetec</td>
+          <td style="padding:8px 10px;font-size:12px;">Primera empresa Minera</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">14/11/2026</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Edson — 2 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4597</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">SISTEMA DE SEGURIDAD PATRIMONIAL EN LAS INSTALACIONES ADMINISTRATIVAS (SAPSA)"</td>
+          <td style="padding:8px 10px;font-size:12px;">SERVICIOS ADMINISTRATIVOS PEÑOLES</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4773</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Suministro CCTV e Instalación</td>
+          <td style="padding:8px 10px;font-size:12px;">SERVICIOS ADMINISTRATIVOS PEÑOLES</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:80%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">80%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">03/07/2026</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Janett — 6 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4831</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Soporte para la red de microonda de la Universidad de Guadalajara</td>
+          <td style="padding:8px 10px;font-size:12px;">Universidad de Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/05/2027</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4853</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Control de Acceso peat. vehic.</td>
+          <td style="padding:8px 10px;font-size:12px;">PRIMERO EMPRESA MINERA</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4854</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Acceso peatonal Área Central</td>
+          <td style="padding:8px 10px;font-size:12px;">PRIMERO EMPRESA MINERA</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4832</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">PÓLIZA DE MANTENIMIENTO, ACTUALIZACIÓN Y RENOVACIÓN DEL SISTEMA DE CCTV</td>
+          <td style="padding:8px 10px;font-size:12px;">INSTITUTO DE PENSIONES DEL ESTADO DE JALISCO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:29%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">29%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">15/04/2027</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4748</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza de enlaces de Microondas (IPEJAL)</td>
+          <td style="padding:8px 10px;font-size:12px;">IPEJAL</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:51%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">51%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">14/8/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4658</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Renovación CCTV HANWHA Metmex</td>
+          <td style="padding:8px 10px;font-size:12px;">HEWLETT PACKARD OPERATIONS MEXICO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">28/2/2026</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Vanesa — 13 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4821</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Mantenimiento red de enlaces</td>
+          <td style="padding:8px 10px;font-size:12px;">GKN DRIVELINE CELAYA</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">18/5/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4834</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">EQUIPO E INSTALACIÓN LERMA</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">5/9/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4836</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">EQUIPO E INSTALACIÓN ACOXPA</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">5/9/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4838</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">EQUIPO E INSTALACIÓN ANTARA</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">5/9/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4789</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Natugy</td>
+          <td style="padding:8px 10px;font-size:12px;">Naturgy</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:19%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">19%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/8/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4732</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Centro De Datos Sej</td>
+          <td style="padding:8px 10px;font-size:12px;">Secretaria De La Hacienda Publica</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:15%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">15%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:25%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">25%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">15/7/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">24-4628</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Proyecto Integral Hospitales</td>
+          <td style="padding:8px 10px;font-size:12px;">Organismo Publico Descentralizado Hospital Civil De Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:27%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">27%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:25%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">25%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">9/5/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4722</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Soporte Anual San Javier</td>
+          <td style="padding:8px 10px;font-size:12px;">Colinas De San Javier</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:65%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">65%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/5/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4708</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Póliza Solvay Juarez</td>
+          <td style="padding:8px 10px;font-size:12px;">Solvay Fluor Mexico</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Pendiente De Adm</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">19/9/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4711</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Póliza Cytec Atequiaza</td>
+          <td style="padding:8px 10px;font-size:12px;">Cytec De Mexico</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Pendiente De Adm</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">16/10/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4719</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Suministro/Instalación Hanwha</td>
+          <td style="padding:8px 10px;font-size:12px;">Colinas De San Javier</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Pendiente De Adm</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">12/5/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4775</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Ups Sistema De Alimentación Cisz</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Zapopan Jalisco</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Pendiente De Adm</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">2/1/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4845</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">SUM INST CAMARA HANWHA 360</td>
+          <td style="padding:8px 10px;font-size:12px;">MOBILURBAN PROMOCION Y CONSTRUCCION</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Pendiente De Adm</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">14/5/2026</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Alan — 4 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4850</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Switch Cisco Catalyst C9606R</td>
+          <td style="padding:8px 10px;font-size:12px;">MUNICIPIO DE ZAPOPAN JALISCO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">9/7/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4823</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">CEMUCE TONALA</td>
+          <td style="padding:8px 10px;font-size:12px;">MUNICIPIO DE TONALA JALISCO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:5%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">5%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">04/06/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4697</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Obra Y Equipos C4 Tlajomulco</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Tlajomulco De Zuñiga</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:87%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">87%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:25%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">25%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4758</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Equipamiento Tlajomulco</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio De Tlajomulco De Zuñiga</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:33%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">33%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+    <details style="margin-bottom:12px;border:0.5px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+      <summary style="padding:14px 16px;cursor:pointer;font-size:14px;font-weight:500;color:#111;list-style:none;display:flex;align-items:center;justify-content:space-between;background:#fff;">
+        <span>Isabel — 10 proyectos</span>
+        <span style="font-size:12px;color:#6b7280;">▼ ver detalle</span>
+      </summary>
+      <div style="padding:0;overflow-x:auto;background:#fff;">
+        <table style="width:100%;border-collapse:collapse;min-width:700px;">
+          <thead>
+            <tr style="background:#f9fafb;border-bottom:0.5px solid #e5e7eb;">
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Código</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Proyecto</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Cliente</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Actividades</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Mem. técnica</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Estatus</th>
+              <th style="text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#6b7280;">Entrega</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4801</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza de Mtto de Fibra Opitica</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio de Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4803</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Migracion de Sitema de CCTV (INTOUCH)</td>
+          <td style="padding:8px 10px;font-size:12px;">Beliveo Mexico</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">15/6/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4840</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">EQUIPO E INSTALACIÓN CENTRO</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4842</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">EQUIPO E INSTALACIÓN NORTE</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#378ADD;margin-right:6px;flex-shrink:0;"></span><span style="background:#B5D4F4;color:#0C447C;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">Por iniciar</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4802</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza de Mtto Tecnologico</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio de Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:38%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">38%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4767</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Suministro e Instalacion de AP H3C</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio de Zapopan</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:79%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">79%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:70%;height:100%;background:#BA7517;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#BA7517;width:30px;">70%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4662</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza Data Center, Site, UPS</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio de Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4663</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Poliza de Fibra Optica</td>
+          <td style="padding:8px 10px;font-size:12px;">Municipio de Guadalajara</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">31/12/2025</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">25-4746</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">Actualizacion CCTV Durango</td>
+          <td style="padding:8px 10px;font-size:12px;">El Palacio de Hierro</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Espera</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;">20/3/2026</td>
+        </tr>
+        <tr style="border-bottom:0.5px solid #f3f4f6;">
+          <td style="padding:8px 10px;font-size:12px;font-weight:500;">26-4844</td>
+          <td style="padding:8px 10px;font-size:12px;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">CIRCUITOS ELECTRICOS T.DURANGO</td>
+          <td style="padding:8px 10px;font-size:12px;">EL PALACIO DE HIERRO</td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:100%;height:100%;background:#3B6D11;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#3B6D11;width:30px;">100%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:6px;">
+              <div style="flex:1;height:6px;background:#e5e7eb;border-radius:3px;overflow:hidden;"><div style="width:0%;height:100%;background:#A32D2D;border-radius:3px;"></div></div>
+              <span style="font-size:11px;font-weight:500;color:#A32D2D;width:30px;">0%</span>
+            </div>
+          </td>
+          <td style="padding:8px 10px;">
+            <div style="display:flex;align-items:center;gap:4px;"><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#aaa;margin-right:6px;flex-shrink:0;"></span><span style="background:#eee;color:#555;font-size:11px;padding:2px 9px;border-radius:10px;font-weight:500;white-space:nowrap;">En Proceso</span></div>
+          </td>
+          <td style="padding:8px 10px;font-size:11px;color:#6b7280;"></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </details>
+
+  <!-- PIE -->
+  <div style="margin-top:32px;padding-top:16px;border-top:0.5px solid #e5e7eb;font-size:11px;color:#9ca3af;text-align:center;">
+    Generado automáticamente el 16/06/2026 14:21 · Los datos provienen directamente de Google Sheets
+  </div>
+
+</div>
+</body>
+</html>
